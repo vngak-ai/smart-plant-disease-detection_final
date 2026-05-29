@@ -25,13 +25,13 @@
 // ============================================================
 // CONFIGURATION — change here when switching home <-> hotspot
 // ============================================================
-#define WIFI_SSID      "8Uganda"
-#define WIFI_PASS      "Lmamlmam202"
+#define WIFI_SSID      "YOUR_WIFI_ID"
+#define WIFI_PASS      "YOUR_WIFI_PASSWORD"
 // Demo (uncomment + comment-out the two above):
 // #define WIFI_SSID   "Khoa Anh"
 // #define WIFI_PASS   "REPLACE_WITH_HOTSPOT_PASS"
 
-#define MQTT_BROKER    "192.168.4.34"   // Pi IP (change for hotspot)
+#define MQTT_BROKER    "PI_IP"   // Pi IP (change for hotspot)
 #define MQTT_PORT      1883
 #define MQTT_CLIENT_ID "plant-nano-01"
 
