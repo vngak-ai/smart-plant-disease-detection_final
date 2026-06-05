@@ -29,7 +29,7 @@ The model was trained on the PlantVillage dataset (https://www.kaggle.com/datase
 For the complete how-to article including wiring, setup steps, screenshots, and explanations:
 https://www.hackster.io/khoaanhnguyenvo2006/smart-plant-disease-detector-fbb6ea  
 https://www.instructables.com/Smart-Plant-Disease-Detection-System-With-Raspberr/
-## Setup Notes
+## Setup Notes  
 Before running the Arduino sketch, replace the placeholder values for `WIFI_SSID`, `WIFI_PASSWORD`, and the MQTT broker IP address (the Pi's IP) in the sketch.
 On the Pi, install Mosquitto and the Python libraries listed above, then run the three Python scripts in any order. The Flask dashboard listens on port 5000 by default.
 To reproduce the model from scratch, open `SIT210_PlantDisease_Training_Final.ipynb` in Google Colab, mount Google Drive containing the PlantVillage dataset, and run the cells top to bottom. The final TFLite file is exported to the working directory and can be copied to the Pi's `~/smart_plant/models/` folder.
