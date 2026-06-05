@@ -14,7 +14,7 @@ The system uses two boards working together:
 - `inference_worker.py` — Pi script that runs the TFLite disease detection model with two-stage classification, confidence thresholds, and sensor cross-validation
 - `flask_api.py` — Pi script that serves the live dashboard and exposes a REST API for sensor history and disease diagnosis results
 - `SIT210_PlantDisease_Training_Final.ipynb` — Clean, consolidated training notebook used to produce the final TFLite model deployed on the Pi. Covers dataset loading, MobileNetV2 transfer learning, evaluation, INT8 quantisation, and TFLite export.
-- `SIT210_PlantDisease_Training (2).ipynb` — Original working notebook with all training runs and intermediate experiments. Kept in the repository as evidence that the model was trained from scratch on the PlantVillage dataset rather than downloaded pretrained.
+- `SIT210_PlantDisease_Training (2).ipynb` — Original working notebook kept as evidence that the model was trained from scratch on the PlantVillage dataset rather than downloaded pretrained. It contains the full development history including failed runs, error outputs, intermediate experiments, and exploratory cells. **This file is included as proof only and is not intended to be executed end-to-end.** Use the Final notebook for any actual training or reproduction.
 ## Hardware
 Raspberry Pi 4, Arduino Nano 33 IoT, DHT22 temperature and humidity sensor, BH1750 light sensor, capacitive soil moisture sensor, DS18B20 waterproof temperature sensor, Raspberry Pi Camera Module 3, Keyestudio relay module with transistor buffer, DC water pump, active buzzer, plus standard wiring (jumper wires, breadboard, pull-up resistors).
 ## Software
