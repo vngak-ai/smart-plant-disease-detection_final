@@ -27,7 +27,7 @@ Raspberry Pi 4, Arduino Nano 33 IoT, DHT22 temperature and humidity sensor, BH17
 The model was trained on the PlantVillage dataset (https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset), which contains 54,309 labelled leaf images across 38 classes covering 14 crop species and their common diseases plus healthy controls. The final exported model achieves around 97% validation accuracy and runs in roughly 150 to 200 milliseconds on the Pi after INT8 quantisation.
 ## Full Tutorial
 For the complete how-to article including wiring, setup steps, screenshots, and explanations:
-https://www.hackster.io/khoaanhnguyenvo2006/smart-plant-disease-detector-fbb6ea
+https://www.hackster.io/khoaanhnguyenvo2006/smart-plant-disease-detector-fbb6ea  
 https://www.instructables.com/Smart-Plant-Disease-Detection-System-With-Raspberr/
 ## Setup Notes
 Before running the Arduino sketch, replace the placeholder values for `WIFI_SSID`, `WIFI_PASSWORD`, and the MQTT broker IP address (the Pi's IP) in the sketch.
